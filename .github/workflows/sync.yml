@@ -15,7 +15,8 @@ jobs:
     steps:
       - uses: Sbrjt/overleaf-resume-syncer@v2
         with:
-          overleaf_url: ${{ vars.OVERLEAF_URL }}
+          overleaf_url: 'https://www.overleaf.com/read/czdjsmmvmfgd#294de7'
+          # overleaf_url: ${{ vars.OVERLEAF_URL }}
 
           # Optional
           gdrive_link: ${{ vars.GDRIVE_LINK }}
