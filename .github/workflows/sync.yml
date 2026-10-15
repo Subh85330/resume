@@ -13,7 +13,7 @@ jobs:
   fetch-pdf:
     runs-on: ubuntu-latest
     steps:
-      - uses: Subh85330/overleaf-resume@v2
+      - uses: Subh85330/overleaf-resume@main
         with:
           overleaf_url: 'https://www.overleaf.com/read/czdjsmmvmfgd#294de7'
           # overleaf_url: ${{ vars.OVERLEAF_URL }}
